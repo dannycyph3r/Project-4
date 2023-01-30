@@ -1,0 +1,40 @@
+
+/* creates borderbox */
+body {
+    background-color: rgb(48, 48, 48);
+    
+}
+
+
+#game{
+    width: 500px;
+    height: 200px;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 10px;
+    margin: auto;
+}
+
+/* add character block */
+
+#xter{
+    width: 20px;
+    height: 30px;
+    background-color: rgb(189, 189, 189);
+    position: relative;
+    top: 170px; 
+    /* //game height - character height (200 - 50) */
+}
+
+/* Key frame animation
+not exactly sure what is does but we'll see */
+
+@keyframes jump{
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
+}
+
+.animate{
+    animation: jump 300ms linear;
+}
