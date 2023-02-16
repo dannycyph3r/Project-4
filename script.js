@@ -23,11 +23,11 @@ function removeJump(){
 }
 
 // supposed to fix a glitch
-if(xter.classList == "animate"){return}
+if(character.classList == "animate"){return}
 
-game width - block width (500 - 20)
-game height - character height - block height (200 - 50 - 20)
-game height - character height (200 - 50)
+// game width - block width (500 - 20)
+// game height - character height - block height (200 - 50 - 20)
+// game height - character height (200 - 50)
 
 
 // lets create a function called checkDead , to see if they collide
