@@ -22,8 +22,8 @@ function removeJump(){
     character.classList.remove("animate");
 }
 
-// supposed to fix a glitch
-if(character.classList == "animate"){return}
+// supposed to fix a glitch - update this code below breaks the jump animation
+// if(character.classList == "animate"){return}
 
 // game width - block width (500 - 20)
 // game height - character height - block height (200 - 50 - 20)
